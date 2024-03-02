@@ -44,10 +44,10 @@
   }
 
   .nav > .nav-links >a:hover{
-    background-color: #fff;
-    color: #3498DB;
-    border-radius: 10px;
-    transition: 0.5s;
+    text-decoration: underline;
+    color: #fff;
+   text-underline-offset: 10px;
+   transition: 0.5s; 
     
   }
   
