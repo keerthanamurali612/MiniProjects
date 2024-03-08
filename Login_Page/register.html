@@ -8,26 +8,34 @@
     <title>Register Now</title>
 </head>
 <body>
-    
-    <div class="container-reg">
-        <h1>Register Form</h1>
-
-        <div class="form-reg">
+  
+    <div class="container">
+        <div class="center">
+            <h1>Register</h1>
             <form action="" method="POST">
-                <label for="email"> Email</label>
-                <input type="text" placeholder="enter your email" required>
-                <label for="password"> Password</label>
-                <input type="password" placeholder="enter your password" required>
-                <label for="conform password"> Conform Password</label>
-                <input type="password" placeholder="enter your Conform password" required>
-
-                <button type="submit">Register</button>
-                Already have an account? <a href="/Login_Page/index.html">Login Here</a>
+                <div class="txt_field">
+                    <input type="text" name="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" name="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" name="Confirm password" required>
+                    <span></span>
+                    <label>Confirm Password</label>
+                </div>
+                <div class="pass">Forget Password?</div>
+                <input name="submit" type="Submit" value="register">
+                <div class="signup_link">
+                    Already have an account? <a href="./index.html">Login Here</a>
+                </div>
             </form>
-
         </div>
-
-    </div>
+      </div>
     
 </body>
 </html>
